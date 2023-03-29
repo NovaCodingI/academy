@@ -1,0 +1,2 @@
+module exam01 {
+}
