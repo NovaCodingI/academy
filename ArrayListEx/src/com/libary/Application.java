@@ -22,6 +22,8 @@ public class Application {
 		
 		// 책 정보 출력
 		lib.toString();
+//		 System.out.println( lib.toString() ); //  @Override - return super.toString(); 리턴을 return ""; 로 바꿔주면 된다.
+		// toString을 사용하고 싶지 않다면 메소드를 만들어서 진행하면된다.
 		
 		// 책대여 : book.isRent = true
 		System.out.println("대여할 책 번호를 선택 해주세요.");
