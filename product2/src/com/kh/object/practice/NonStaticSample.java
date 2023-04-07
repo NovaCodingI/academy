@@ -11,7 +11,7 @@ public class NonStaticSample {
 	}
 	
 	public char alphabette() {
-		return '';
+		return 'a';
 		
 	}
 

@@ -9,7 +9,12 @@ public class VariableScopeExample {
 			v2 = v1 - 10;
 		}
 		
-		int v3 = v1 + v2 + 5;
+		int v2 = 0;
+		int v3 = v1 + v2  + 5;
+		
+		System.out.println(v1);
+		System.out.println(v2);
+		System.out.println(v3);
 	}
 
 }

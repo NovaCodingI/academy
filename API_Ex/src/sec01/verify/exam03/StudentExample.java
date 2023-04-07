@@ -8,7 +8,7 @@ public class StudentExample {
 		
 		
 		//Student 키로 총점을 지정하는 hashMap 객체 생성
-		HashMap<Student, String> HashMap = new HashMap<Student, String>();
+		HashMap<Student, String> hashMap = new HashMap<Student, String>();
 		
 		// new Student("1")의 점수95를 저장
 		hashMap.put(new Student("1"), "95");

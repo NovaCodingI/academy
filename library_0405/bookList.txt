@@ -1,0 +1,6 @@
+1 혼자하는 자바 true
+2 불편한편의점 나카사키 true
+3 hi no true
+4 hihi soso false
+5 편의점샛별이 샛별이 false
+7 hi hi false

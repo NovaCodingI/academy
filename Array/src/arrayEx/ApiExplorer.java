@@ -5,6 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 
 public class ApiExplorer {
@@ -23,11 +24,15 @@ public class ApiExplorer {
         conn.setRequestProperty("Content-type", "application/json");
         System.out.println("Response code: " + conn.getResponseCode());
         BufferedReader rd;
+        
         if(conn.getResponseCode() >= 200 && conn.getResponseCode() <= 300) {
             rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
         } else {
             rd = new BufferedReader(new InputStreamReader(conn.getErrorStream()));
         }
+        
+//        BufferedWriter 로 출력하면 파일로 출력된다 TODO
+        
         StringBuilder sb = new StringBuilder();
         String line;
         while ((line = rd.readLine()) != null) {

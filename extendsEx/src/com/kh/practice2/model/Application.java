@@ -15,14 +15,14 @@ public class Application {
 			if(random < 5) {
 				animal[i] = new Dog("복순이", "포메라니안", (int)(Math.random()*50));
 			} else {
-				animal[i] = new Cat("아프리카", "애쉬그레이");
+				animal[i] = new Cat("가울이", "길고양이", "우리집앞", "갈색");
 			}
 		}
 		
 		for(int i=0;i<animal.length;i++) {
 			
-			dog.speak();
-			cat.speak();
+			
+			
 		}
 		
 		while(true) {
