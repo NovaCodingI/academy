@@ -75,7 +75,7 @@ public class DBUtil {
 			if(conn != null && conn.isClosed()) {   // 커넥션이 만약에 닫히지 않았다면 닫아줘
 				conn.close();
 			}
-			if(rs != null & rs.isClosed()) {
+			if(rs != null && rs.isClosed()) {
 				rs.close();
 			}
 		} catch (SQLException e) {
