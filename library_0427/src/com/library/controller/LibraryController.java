@@ -174,7 +174,7 @@ public class LibraryController {
 					}
 				}
 				
-				id = getString();
+//				id = getString();
 				System.out.println("pw를 입력해주세요");
 				pw = getString();
 				System.out.println("이름을 입력해주세요");

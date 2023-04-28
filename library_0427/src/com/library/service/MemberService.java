@@ -41,9 +41,10 @@ public class MemberService {
 				System.err.println("관리자에게 문의 해주세요");
 			}
 			
-		} else {
-			System.err.println("아이디가 중복 되었습니다.");
-		}
+		} 
+//			else {
+//			System.err.println("아이디가 중복 되었습니다.");
+//		}
 		
 	}
 
@@ -62,7 +63,8 @@ public class MemberService {
 	public boolean idCheck(String id) {
 		boolean res = dao.idCheck(id);
 		if(!res) {
-			System.out.println("아이디가 중복 되었습니다.");
+			System.err.println("아이디가 중복 되었습니다.");
+			System.out.println("아이디를 다시 입력해주세요");
 		}
 		return res;
 	}
