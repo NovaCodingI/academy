@@ -20,7 +20,7 @@ public class ArrayEx5 {
 			// 로컬 DB 접속
 			
 		} else if(mode==2) {
-			System.out.println("테스트환경 입니다");
+			System.out.println("테스트환경 입니다.");
 			// 테스트 DB에 접속
 			
 		} else if(mode==3) {

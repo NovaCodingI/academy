@@ -15,6 +15,10 @@ public class ArrayEx3 {
 		System.out.println("몇개의 방을 만들까요?");
 		int index = scan.nextInt();
 		score = new int[index];
+		for(int i=0;i<score.length;i++) {
+			int[] y = score;
+			System.out.println("몇개 만들어졌게" + y);
+		}
 		
 		
 		

@@ -26,7 +26,7 @@ public class ArrayEx4 {
 										+ Integer.toHexString(names.hashCode()));
 		
 										
-		System.out.printf("%x" + names.hashCode());
+		System.out.printf("%x", names.hashCode());
 		
 		//TODO
 	}

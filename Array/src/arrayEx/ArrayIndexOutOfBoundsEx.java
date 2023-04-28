@@ -16,11 +16,14 @@ public class ArrayIndexOutOfBoundsEx {
 		// 타입[] 변수 = new 타입[길이]
 		score = new int[10];
 		System.out.println("int을 저장할 10개의 공간을 만들었어요!");
-		
-			
+		int count = 0;
+		int sum = 0;
 		// for문 초기화식;조건식;증감식
 		for(int i=0;i<score.length;i++) {
-			System.out.println(score[i]);
+			count++;			
+			System.out.println("스코어 i " + score[i] + "카운터 : "+count);
+			sum += i;
+			System.out.println(sum);
 		}
 		
 		

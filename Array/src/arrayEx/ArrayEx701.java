@@ -22,10 +22,13 @@ public class ArrayEx701 {
 		// i=행번호, j=열번호
 		for(int i=0;i<scores.length;i++) {
 			int[] points = scores[i];
-			System.out.println(points[i]);
-//			for(int j=0;j<points.length;j++) {
-//				System.out.println(points[j]);
-//			}
+			System.out.println(i + ": i 출력");
+			System.out.println("[i]" + points[i]);
+			for(int j=0;j<points.length;j++) {
+				System.out.println(j + ": j 출력");
+				System.out.println("[j]" + points[j]);
+				System.out.println("  point + i : " + points[i] + "  point + j : "+points[j]);
+			}
 		}
 			
 		

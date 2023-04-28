@@ -1,10 +1,11 @@
 package testEx;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ExTest {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		String[] oldStrArr = {"java", "array", "copy"};
 		String[] newStrArr = new String[5];
 		
@@ -26,7 +27,16 @@ public class ExTest {
 		for(String data : newStrArr) {
 			System.out.println(data);
 		}
-		
+		System.out.println(" 값을 입력해주세요 키코드 시작입니다. ");
+		int keyCode;
+		while(true) {
+		keyCode = System.in.read();
+		System.out.println("key : " + keyCode);
+		if (keyCode == 113) {
+			break;
+		}
+		}
+		System.out.println("종료");
 	}
 		
 		

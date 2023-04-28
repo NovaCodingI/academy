@@ -20,7 +20,7 @@ public class ArrayEx8 {
 				System.out.printf("(%d,%d)",i,j);
 				// 2차원 배열에서 값에 접근하는 방법
 				System.out.println(points[j]); // 진짜 방에 들어가있는 숫자
-				System.out.println(scores[i][j]);
+				System.out.println("!!" + scores[i][j]);
 			}
 			
 		}
